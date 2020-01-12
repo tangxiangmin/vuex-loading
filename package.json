@@ -1,0 +1,25 @@
+{
+  "name": "vuex-loading",
+  "version": "1.0.0",
+  "description": "Solve the problem of asynchronous operation loading status judgment in vue project",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd demo && npm run dev",
+    "build": "rollup -c rollup.config.js"
+  },
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "keywords": ["vue","vuex", "vuex-loading"],
+  "author": "shymean",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.29.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
